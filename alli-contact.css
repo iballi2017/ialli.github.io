@@ -1,0 +1,67 @@
+.logo{
+    width: 40px;
+}
+.nav-tabs a{
+    color: #fff;
+    font-size: 11px;
+}
+.alli-header{
+    text-align: center;
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    color:#05154fff;
+    font-weight: 400;
+}
+.sub-header{
+    text-align: center;
+    font-size: 7.5px;
+    color: #000;
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: 100;
+    margin-top: -12px;
+    font-weight: 100;
+    color:#05154fff;
+}
+.alli-photo2{
+    height: 180px;
+    width: 250px;
+    /* transform: rotate(-90deg); */
+    margin-top: 40px;
+    float: right;
+}
+.contact{
+    text-align: justify;
+    color:#05154fff;
+    font-size: 20px;
+}
+.service{
+    margin-top: 50px;
+    font-size: 20px;
+    color:#05154fff;
+}
+footer{
+    background: #000;
+    margin-top: 200px;
+    color: #fff;
+}
+.alli-contact{
+    width: 100%;
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+@media only screen and (min-width: 1024px){ 
+    .alli-intro{
+        text-align: justify;
+        margin-top: 30px;
+        color:#05154fff;
+        font-size: 30px;
+    }
+    .alli-contact{
+        width: 70%;
+    }
+    .alli-photo2{
+        float: right;
+    }
+}
