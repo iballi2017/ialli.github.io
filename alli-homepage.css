@@ -23,7 +23,7 @@
 }
 .sub-header{
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     color: #000;
     font-family: 'Ramabhadra', sans-serif;
     /* font-weight: 500; */
@@ -100,8 +100,9 @@ footer{
         margin-top: -12px;
         color:rgb(109, 136, 233);
     }
-
-    
+    .alli-intro{
+        font-size: 15px;
+    }    
     .mobile-navbar{
         display: block;
     }
@@ -134,7 +135,7 @@ footer{
         text-align: justify;
         margin-top: -20px;
         color:#05154fff;
-        font-size: 15px;
+        font-size: 17px;
     }
     .nav{
         display: block;
