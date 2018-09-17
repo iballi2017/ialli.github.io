@@ -11,7 +11,7 @@
 .logo{
     width: 50px;
     height: 22px;
-    float: right;
+    /* float:left; */
 }
 .alli-header{
     text-align: center;
@@ -66,16 +66,24 @@ footer{
     }
     .nav{
         display: none;
+        position: relative;
     }
-    .search-logo{
-        width: 10px;
-        height: 10px;
+    .logo{
+        position: absolute;
+        margin-left: 0px;
     }
-    .menu-logo{
+    .menu-icon{
         width: 17px;
         height: 19px;
-        float: left;
-        margin-right: 75px;
+        position: absolute;
+        margin-left: 275px;
+    }
+    .close-icon{
+        display: none;
+        width: 20px;
+        height: 22px;
+        position: absolute;
+        margin-left: 275px;
     }
 
     .alli-header{
@@ -101,6 +109,26 @@ footer{
         display: none;
     }
 }
+
+@media only screen and (min-width: 375px){
+    .menu-icon{
+        margin-left: 335px;
+    }
+    .close-icon{
+        margin-left: 275px;
+    }
+}
+
+@media only screen and (min-width: 425px){
+    .menu-icon{
+        margin-left: 383px;
+    }
+    .close-icon{
+        margin-left: 275px;
+    }
+}
+
+
 @media only screen and (min-width: 768px){
     .alli-intro{
         text-align: justify;
@@ -117,10 +145,10 @@ footer{
         color:#05154fff;
         font-size: 15px;
     }
-    .search-logo{
+    .menu-icon{
         display: none;
     }
-    .menu-logo{
+    .close-icon{
         display: none;
     }
     .mobile-navbar{
@@ -155,6 +183,12 @@ footer{
     }
     .mobile-navbar{
         display: none;
+    }
+    .logo{
+        margin-left: 200px;
+    }
+    .nav-tabs{
+        margin-left: 550px;
     }
 
 }
